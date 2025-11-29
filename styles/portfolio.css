@@ -73,3 +73,10 @@ p {
 .project-desciption {
   padding: 120px 60px;
 }
+
+@media (max-width: 900px) {
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
+}
